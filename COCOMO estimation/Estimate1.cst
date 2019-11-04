@@ -1,0 +1,68 @@
+998 Type:           SystemStar estimate
+0   Written:        11/03/19 21:03:56
+900 File Version:   9003
+901 SW Version:     Demo
+902 Build:          3.0.3.1003
+904 Sequence Number:00206241760506841522347012146
+905 Version:        SystemStar 3.0 Demo
+906 Serial Number:  83 - 01126                              
+estcreate "Estimate1"
+dbselect "COCOMO_II.2000_Waterfall"
+calcmodel intermediate
+prec 4
+flex 3
+resl 4
+team 5
+pmat 3
+wsname *
+sced  very lo
+amcf *
+wsstartpoint 2
+rename "Component1"
+ACAP     high
+AEXP     high
+DATA     high
+PCAP  very hi
+CD01     high
+CD03 extra hi
+CD04      low
+wsslocdist y  0 1        4500
+increment 1
+set auto on
+910 Lines:                       37
+911 Characters:                 612
+912 File Size:                  896
+913 Checksum 1:                   1
+914 Checksum 2:                  33
+915 Checksum 3: 0462263737675836096
+1000 "Estimate1"
+1001 "    "
+1002 152
+1003   75
+1004   1.4300
+1006       8.3883
+1007       8.3883
+1008   0.4105
+1009       4.7487
+1010       4.7487
+1011         4500
+1012         4500
+1013    1.0513
+1014    0.3083
+1015 2
+1016 4
+1017 3
+1018 4
+1019 5
+1020 3
+1021    0
+1022    2.9400
+1023   0.91000
+1024   1.00000
+1025    3.6700
+1026   0.28000
+1027   0.20000
+1028   0.14130
+1029   0.00000
+1030 s
+1031 ""
